@@ -16,10 +16,6 @@
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
-    <modules>
-        <module>base-function</module>
-    </modules>
-
     <properties>
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
