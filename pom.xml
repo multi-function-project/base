@@ -11,12 +11,13 @@
 
     <groupId>com.example</groupId>
     <artifactId>base</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <name>base</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
+        <revision>1.0.0-SNAPSHOT</revision>
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
