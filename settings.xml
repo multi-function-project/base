@@ -3,7 +3,7 @@
     <servers>
         <server>
             <id>github</id>
-            <username>swdevsmz</username>
+            <username>${env.GITHUB_NAME}</username>
             <password>${env.GITHUB_TOKEN}</password>
         </server>
     </servers>
