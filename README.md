@@ -47,3 +47,12 @@ gu install native-image
 sudo apt install build-essential
 sudo apt install zlib1g-dev
 ~~~
+
+
+Git 設定
+~~~
+git config --global user.name "example taro"
+git config --global user.email "taro@example.com"
+# マージ済みブランチの削除
+git config --global fetch.prune true
+~~~~
