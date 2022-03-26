@@ -44,4 +44,6 @@ source .bashrc
 ツールのインストール
 ~~~
 gu install native-image
+sudo apt install build-essential
+sudo apt install zlib1g-dev
 ~~~
